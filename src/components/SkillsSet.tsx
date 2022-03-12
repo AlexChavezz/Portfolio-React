@@ -11,55 +11,60 @@ import nodejsLogo from '../assets/icons8-node-js-96.webp';
 import mysqlLogo from '../assets/MySQL-logo.webp';
 import typescriptLogo from '../assets/icons8-typescript-48.webp';
 
+
 export const SkillSet = () => {
     return (
         <Container className={styles.customContainerStyles}>
-
-            <Proyect
-                srcImage={htmlLogo}
-                imageAlt="hmtl-logo"
-                name="Html"
-            />
-            <Proyect
-                srcImage={css3Logo}
-                imageAlt="css3-logo"
-                name="Css3"
-            />
-            <Proyect
-                srcImage={javascriptLogo}
-                imageAlt="javascript-logo"
-                name="Javascript"
-            />
-            <Proyect
-                srcImage={typescriptLogo}
-                imageAlt="typescript-logo"
-                name="Typescript"
-            />
-            <Proyect
-                srcImage={reactLogo}
-                imageAlt="react-logo"
-                name="React"
-            />
-            <Proyect
-                srcImage={githubLogo}
-                imageAlt="github-logo"
-                name="Github"
-            />
-            <Proyect
-                srcImage={firebaseLogo}
-                imageAlt="firebase-logo"
-                name="Firebase"
-            />
-            <Proyect
-                srcImage={nodejsLogo}
-                imageAlt="nodejs-logo"
-                name="Node Js"
-            />
-            <Proyect
-                srcImage={mysqlLogo}
-                imageAlt="mysql-logo"
-                name="Mysql"
-            />
+            <article>
+                <h2>SKILL-SET</h2>
+            </article>
+            <article className={ styles.tecnologyContainer }>
+                <Proyect
+                    srcImage={htmlLogo}
+                    imageAlt="hmtl-logo"
+                    name="Html"
+                />
+                <Proyect
+                    srcImage={css3Logo}
+                    imageAlt="css3-logo"
+                    name="Css3"
+                />
+                <Proyect
+                    srcImage={javascriptLogo}
+                    imageAlt="javascript-logo"
+                    name="Javascript"
+                />
+                <Proyect
+                    srcImage={typescriptLogo}
+                    imageAlt="typescript-logo"
+                    name="Typescript"
+                />
+                <Proyect
+                    srcImage={reactLogo}
+                    imageAlt="react-logo"
+                    name="React"
+                />
+                <Proyect
+                    srcImage={githubLogo}
+                    imageAlt="github-logo"
+                    name="Github"
+                />
+                <Proyect
+                    srcImage={firebaseLogo}
+                    imageAlt="firebase-logo"
+                    name="Firebase"
+                />
+                <Proyect
+                    srcImage={nodejsLogo}
+                    imageAlt="nodejs-logo"
+                    name="Node Js"
+                />
+                <Proyect
+                    srcImage={mysqlLogo}
+                    imageAlt="mysql-logo"
+                    name="Mysql"
+                />
+            </article>
         </Container>
     );
 }

@@ -1,8 +1,12 @@
 .customContainerStyles {
     margin:0px auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction:column;
+    margin-top:100px;
+}
+.customContainerStyles h2 {
+    font-size: 20px;
+    text-align:center;
 }
 .tecnology {
     display: flex;
@@ -10,8 +14,10 @@
     width:75px;
     margin:40px;
 }
-.customContainerStyles img {
-
+.tecnologyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .customContainerStyles span {
     text-align: center;
