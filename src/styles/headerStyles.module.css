@@ -1,0 +1,42 @@
+.headerContainer {
+    box-shadow: 0px 2px 2px #ccc;
+    /* position: fixed; */
+    height: 50px;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+}
+.customContainerStyles {
+    display:flex;
+    justify-content: space-between;
+}
+.headerTitleContainer {
+    align-items:center;
+    display: flex ;
+}
+.headerTitle {
+    font-size: 15px;
+    font-weight: 400;
+}
+.headerTitleContainer img {
+    height:25px;
+    width: 35px;
+    margin: 0px 20px;
+}
+/*  Navegation */
+.navegationContainer {
+    display: flex;
+    align-items: center;
+}
+.navegation {
+    align-items: center;
+}
+.navegation a {
+    text-decoration:none;
+    color:black;
+    margin:0px 10px;
+}
+.navegation a:hover  {
+    color: gray;
+}
+
